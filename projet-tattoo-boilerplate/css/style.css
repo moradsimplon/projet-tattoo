@@ -1,13 +1,47 @@
-* {
-  /*border : 1px solid black;*/
-}
-@media (max-width: 730px) {
-  html{
+html{
   margin: 0;
   padding: 0;
-  background : url(img/background-fulldest.jpg) no-repeat center fixed;
+  background : url(/home/morad/site/lab/projet-tattoo/projet-tattoo-boilerplate/img/background-fulldest.jpg) no-repeat center fixed;
   -webkit-background-size:cover;
   background-size: cover;
 }
+* {
+  /*font-family: 'Pacifico', cursive;*/
+  /*border : 1px solid black;*/
+}
+h1{
+  color: #DC4C46;
+  text-shadow: 3px 3px #672E3B;
+  font-family: 'Lobster', cursive;
+}
+@media (max-width: 730px) {
+ body{
+   display: flex;
+   width: auto;
+   height: 640px;
+   justify-content: space-between;
+   flex-direction: column;
+ }
 
+header section {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+header nav ul {
+list-style: none;
+border: 1px solid green;
+}
+
+footer{
+  border: 1px solid black;
+
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 50% auto;
+}
 }

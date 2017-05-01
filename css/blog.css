@@ -2,7 +2,7 @@
 **************************************************************************/
 
 @media (min-width: 360px) {
-    
+
     /************************************debut partie haute header*******************
   ********************************************************************************/
     header section {
@@ -10,6 +10,8 @@
         flex-direction: row;
         justify-content: space-around;
         margin: 2%;
+        background-color: rgba(0, 0, 0, 0.5);
+
     }
     h1 {
         color: #DC4C46;
@@ -81,14 +83,32 @@
 *******************************************************************************/
     main section {
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: space-around;
+        margin: 5% ;
     }
+
+    article{
+
+      margin:5% ;
+      padding: 5%;
+      border: 1px solid black;
+      border-radius: 3px;
+      box-shadow: 1px 3px 3px 0px grey;
+      width: 100%;
+    }
+  .titrecorp{
+    width: 100%;
+    font-size: 23px;
+  }
+
 
 
     /****************************Partie bas footer**********************************
 *******************************************************************************/
     footer {
-        border: 1px solid black;
+        /*border: 1px solid black;*/
         background-color: rgba(0, 0, 0, 0.5);
         display: flex;
         flex-direction: row;
@@ -124,9 +144,7 @@
 **************************************************************************/
 
 @media (min-width:760px) {
-    body {
-        height: 1024px;
-    }
+
     h1 {
         font-size: 70px;
     }
@@ -142,5 +160,11 @@
 
 @media (min-width:1024px) {
 
+ main section  {
+   display: flex;
+   padding: 0;
+   margin: 2%;
+
+ }
 
 }

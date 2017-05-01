@@ -4,7 +4,6 @@ html {
     margin: 0;
     padding: 0;
     background: url(/home/morad/site/lab/projet-tattoo/projet-tattoo-boilerplate/img/background-fulldest.jpg) no-repeat center fixed;
-
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -92,8 +91,6 @@ html {
     }
     /******************************** fin style menu deroulant ***********************************
   ********************************************************************************************************************************/
-
-
     /*************************************Partie centrale***************************
 *******************************************************************************/
     main section {
@@ -149,51 +146,32 @@ html {
 }
 
 
-
-
-
-
-
 /**************************************Tablette***************************
 **************************************************************************/
 
-
 @media (min-width:760px) {
-
-
-
-body {
-
-    height: 1024px;
-
+    body {
+        height: 1024px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    #menu-accordeon a {
+        font-size: 2em
+    }
+    main button a {
+        color: #672E3B;
+        text-decoration: none;
+        font-size: 22px;
+    }
 }
 
-h1 {
-  font-size: 70px;
-
-}
-
-#menu-accordeon a {
-
-    font-size: 2em
-}
-
-main button a {
-    color: #672E3B;
-    text-decoration: none;
-    font-size: 22px;
-}
-
-
-}
 
 /****************************************Desktop********************************
 ********************************************************************************/
 
-
 @media (min-width:1024px) {
-
-body{
-  height: 600px;
-}
+    body {
+        height: 600px;
+    }
 }

@@ -1,0 +1,222 @@
+/*******************************Mobile First******************************
+**************************************************************************/
+*{
+  font-family: 'Lobster', cursive;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 360px) {
+
+    /************************************debut partie haute header*******************
+  ********************************************************************************/
+  header{
+    height: 200px;
+  }
+    header section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      width: 100%;
+    }
+    h1 {
+        color: #DC4C46;
+        text-shadow: 3px 3px #672E3B;
+        font-family: 'Lobster', cursive;
+    }
+    /***************************************************debut style menu deroulant **************************************
+  ******************************************************************************************************************/
+    #menu-accordeon {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+    }
+    #menu-accordeon ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+    #menu-accordeon li {
+        background-color: rgba ( 0, 0, 0.5);
+        border-radius: 6px;
+        margin-bottom: 2px;
+        box-shadow: 3px 3px 3px #672E3B;
+        border: solid 1px #672E3B
+    }
+    #menu-accordeon li li {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .5s;
+        border-radius: 0;
+        background: rgba( 0, 0, 0.8);
+        box-shadow: none;
+        border: none;
+        margin: 0
+    }
+    #menu-accordeon a {
+        display: block;
+        text-decoration: none;
+        color: #DC4C46;
+        padding: 8px 0;
+        font-family: 'Lobster', cursive;
+        font-size: 1.2em
+    }
+    #menu-accordeon ul li a, #menu-accordeon li:hover li a {
+        font-size: 1em
+    }
+    #menu-accordeon li:hover {
+        background: rgba ( 0, 0, 0.5)
+    }
+    #menu-accordeon li li:hover {
+        background: rgba( 0, 0, 1);
+    }
+    #menu-accordeon ul li:last-child {
+        border-radius: 0 0 6px 6px;
+        border: none;
+    }
+    #menu-accordeon li:hover li {
+        max-height: 15em;
+    }
+    /******************************** fin style menu deroulant ***********************************
+  ********************************************************************************************************************************/
+
+
+
+    /*************************************Partie centrale***************************
+*******************************************************************************/
+
+.carte,form,address {
+  display: relative;
+}
+
+  form{
+
+    margin: 15% auto;
+    width: 60%;
+    border:1px solid black;
+    text-align: center;
+  }
+  address{
+
+    padding: 5%;
+    margin: 20% 15% auto;
+    text-align: center;
+  }
+  input{
+    margin: 2%;
+  }
+  .boutton{
+    background: #DC4C46;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 2px 0px  #672E3B;
+  }
+
+.carte{
+  margin: 6%;
+}
+
+
+
+    /****************************Partie bas footer**********************************
+*******************************************************************************/
+    footer {
+        /*border: 1px solid black;*/
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer h3 {
+        color: rgba(229, 229, 229, 0.5);
+        text-align: center;
+    }
+    footer nav {
+        display: flex;
+        align-content: center;
+        margin: 5%;
+    }
+    footer nav ul {
+        padding: 0 0;
+        margin: 0;
+        list-style: none;
+    }
+    footer nav a:hover {
+        color: rgba(229, 229, 229);
+        text-decoration: none;
+    }
+    footer nav a {
+        color: rgba(229, 229, 229, 0.5);
+        text-decoration: none;
+    }
+}
+
+
+/**************************************Tablette***************************
+**************************************************************************/
+
+@media (min-width:760px) {
+
+    h1 {
+        font-size: 70px;
+    }
+    #menu-accordeon a {
+        font-size: 2em
+    }
+
+}
+iframe{
+  width:340px;
+  height:400px;
+  margin: 0% 30%;
+}
+form{
+
+  margin: 15% auto;
+  width: 30%;
+  border:1px solid black;
+  text-align: center;
+}
+address{
+
+  padding: 5%;
+  margin:  5% auto;
+  text-align: center;
+  font-size: 22px;
+}
+.carte {
+  display: relative;
+  margin: 10%  auto;
+}
+/****************************************Desktop********************************
+********************************************************************************/
+
+@media (min-width:1024px) {
+
+  .carte {
+    display: relative;
+    margin: 10%  auto;
+  }
+  iframe{
+    width:440px;
+    height:300px;
+    margin: 0% 33% auto;
+}
+form{
+
+  margin: 15% auto;
+  width: 20%;
+  border:1px solid black;
+  text-align: center;
+}

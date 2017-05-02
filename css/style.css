@@ -3,7 +3,7 @@
 html {
     margin: 0;
     padding: 0;
-    background: url(/home/morad/site/lab/projet-tattoo/projet-tattoo-boilerplate/img/background-fulldest.jpg) no-repeat center fixed;
+    background: url(/home/morad/site/lab/projet-tattoo/img/background-fulldest.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -27,6 +27,7 @@ html {
         flex-direction: row;
         justify-content: space-around;
         margin: 2%;
+        
     }
     h1 {
         color: #DC4C46;

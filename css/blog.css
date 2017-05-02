@@ -5,13 +5,22 @@
 
     /************************************debut partie haute header*******************
   ********************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+}
+   header{
+     height: 200px;
+   }
     header section {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         justify-content: space-around;
-        margin: 2%;
+        margin: 0 auto;
         background-color: rgba(0, 0, 0, 0.5);
-
+        position: fixed;
+        width: 100%;
     }
     h1 {
         color: #DC4C46;
@@ -97,6 +106,7 @@
       border-radius: 3px;
       box-shadow: 1px 3px 3px 0px grey;
       width: 100%;
+
     }
   .titrecorp{
     width: 100%;

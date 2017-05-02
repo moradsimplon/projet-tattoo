@@ -3,7 +3,7 @@
 html {
     margin: 0;
     padding: 0;
-    background: url(/home/morad/site/lab/projet-tattoo/img/background-fulldest.jpg) no-repeat center fixed;
+    background: url(img/background-fulldest.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }

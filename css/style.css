@@ -27,7 +27,7 @@ html {
         flex-direction: row;
         justify-content: space-around;
         margin: 2%;
-        
+
     }
     h1 {
         color: #DC4C46;
@@ -98,7 +98,7 @@ html {
         display: flex;
         justify-content: center;
     }
-    main section button {
+    main  button {
         flex-basis: 40%;
         border-radius: 12px 0 12px 0;
         background: #d34836;
@@ -108,7 +108,7 @@ html {
         padding: 6px 0 6px 0;
         box-shadow: 3px 3px #FF6347;
     }
-    main button a {
+    main  a {
         color: #672E3B;
         text-decoration: none;
     }
